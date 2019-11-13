@@ -73,7 +73,7 @@ p{
 }
 
 
-#sepeda {
+#sepeda form {
 	position: relative;
 	height: 150px;
 	width: 100%;
@@ -170,4 +170,20 @@ p{
 #reset:hover {
 	background-color: green;
 	color: white;
+}
+
+#about, #sepeda, #home{
+	margin-bottom: 5%;
+}
+
+.center{
+	text-align: center;
+}
+
+.mb-2{
+	margin-bottom: 2%;
+}
+
+.mt-2{
+	margin-top: 2%;
 }
