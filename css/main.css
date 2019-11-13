@@ -71,3 +71,103 @@ p{
     text-indent: 5%;
     text-align: justify;
 }
+
+
+#sepeda {
+	position: relative;
+	height: 150px;
+	width: 100%;
+	background-color: gray;
+	min-width: 1000px;
+}
+
+.filter-title {
+	position: absolute;
+	font-size: 20px;
+	left: 50%;
+	top: 10px;
+	transform: translate(-50%, -50%);
+}
+
+.baru-bekas {
+	position: absolute;
+	left: 3%;
+	top: 15px;
+	
+}
+
+.rentang-harga {
+	position: absolute;
+	left: 3%;
+	top: 75px;
+}
+
+.merek-sepeda ul, .tipe-sepeda ul {
+	list-style-type: none;
+}
+
+.merek-sepeda {
+	position: absolute;
+	left: 30%;
+	top: 15px;
+	height: 100%;
+	width: 35%;	
+}
+
+.merek-col2 {
+	position: absolute;
+	left: 60%;
+	top: 20px;
+	height: 100%;	
+}
+
+.tipe-sepeda {
+	position: absolute;
+	left: 63%;
+	top: 15px;
+	width: 30%;
+	height: 100%;	
+}
+
+.tipe-col2 {
+	position: absolute;
+	left: 50%;
+	top: 20px;
+	height: 100%;	
+}
+
+.search {
+	position: absolute;
+	right: 3%;
+	top: 40%;
+	box-sizing: border-box;
+}
+
+#search {
+	padding: 5px;
+	font-size: 14px;
+	width: 60px;
+}
+
+#search:hover {
+	background-color: green;
+	color: white;
+}
+
+.reset {
+	position: absolute;
+	right: 3%;
+	bottom: 10%;
+	
+}
+
+#reset {
+	padding: 5px;
+	font-size: 14px;
+	width: 60px;
+}
+
+#reset:hover {
+	background-color: green;
+	color: white;
+}

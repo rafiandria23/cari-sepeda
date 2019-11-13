@@ -29,20 +29,117 @@
                 Ada banyak variasi tulisan Lorem Ipsum yang tersedia, tapi kebanyakan sudah mengalami perubahan bentuk, entah karena unsur humor atau kalimat yang diacak hingga nampak sangat tidak masuk akal. Jika anda ingin menggunakan tulisan Lorem Ipsum, anda harus yakin tidak ada bagian yang memalukan yang tersembunyi di tengah naskah tersebut. Semua generator Lorem Ipsum di internet cenderung untuk mengulang bagian-bagian tertentu. Karena itu inilah generator pertama yang sebenarnya di internet. Ia menggunakan kamus perbendaharaan yang terdiri dari 200 kata Latin, yang digabung dengan banyak contoh struktur kalimat untuk menghasilkan Lorem Ipsun yang nampak masuk akal. Karena itu Lorem Ipsun yang dihasilkan akan selalu bebas dari pengulangan, unsur humor yang sengaja dimasukkan, kata yang tidak sesuai dengan karakteristiknya dan lain sebagainya.
             </p>                
             </article>
-            <article id="sepeda">
-                <section>
-                    Product 1
-                </section>            
-                <section>
-                    Product 2
-                </section>            
-                <aside>
-                    Search
-                </aside>
-                <aside>
-                    Filter
-                </aside>    
-            </article>
+            <form id="sepeda">
+				<span class="filter-title">Filter</span>
+				<div class="baru-bekas">
+					<span>Kondisi</span><br>
+					<input type="checkbox" name="pilih-baru-bekas"id="baru" value="baru">
+					<label for="baru">Baru</label>
+					<input type="checkbox" name="pilih-baru-bekas"id="bekas" value="bekas">
+					<label for="baru">Bekas</label>
+				</div>
+				<div class="rentang-harga">
+					<label for="harga">Tentukan rentang (IDR):</label><br>
+					<select name="harga" id="harga">
+						<option value="<Rp500.000,00"><span><</span>Rp500.000,00</option>
+						<option value="Rp500.000,00 - Rp1.000.000,00">Rp500.000,00 - Rp1.000.000,00</option>
+						<option value="Rp1.000.000,00 - Rp2.000.000,00">Rp1.000.000,00 - Rp2.000.000,00</option>
+						<option value="Rp2.000.000,00 - Rp5.000.000,00">Rp2.000.000,00 - Rp5.000.000,00</option>
+						<option value=">Rp5.000.000,00">>Rp5.000.000,00</option>
+					</select>
+				</div>
+				
+				<div class="merek-sepeda">
+					<span>Merek:</span>
+					<ul>
+					<li>
+					<input type="checkbox" name="merek-sepeda"id="polygon" value="polygon">
+					<label for="polygon">Polygon</label>
+					</li>
+					<li>
+					<input type="checkbox" name="merek-sepeda"id="united-bike" value="united-bike">
+					<label for="united-bike">United Bike</label>
+					</li>
+					<li>
+					<input type="checkbox" name="merek-sepeda"id="rocky-mountain-bicycles" value="rocky-mountain-bicycles">
+					<label for="rocky-mountain-bicycles">Rocky Mountain Bicycles</label>
+					</li>
+					<li>
+					<input type="checkbox" name="merek-sepeda"id="santa-cruz" value="santa-cruz">
+					<label for="santa-cruz">Santa Cruz</label>
+					</li>
+					<li>
+					<input type="checkbox" name="merek-sepeda"id="lapierre" value="lapierre">
+					<label for="lapierre">Lapierre</label>
+					</li>
+					</ul>
+					<ul class="merek-col2">
+					<li>
+					<input type="checkbox" name="merek-sepeda"id="kona" value="kona">
+					<label for="kona">Kona</label>
+					</li>
+					<li>
+					<input type="checkbox" name="merek-sepeda"id="giant" value="giant">
+					<label for="giant">Giant</label>
+					</li>
+					<li>
+					<input type="checkbox" name="merek-sepeda"id="cube" value="cube">
+					<label for="cube">Cube</label>
+					</li>
+					<li>
+					<input type="checkbox" name="merek-sepeda"id="trek" value="trek">
+					<label for="trek">Trek</label>
+					</li>
+					<li>
+					<input type="checkbox" name="merek-sepeda"id="wimcycle" value="wimcycle">
+					<label for="wimcycle">Wimcycle</label>
+					</li>
+					</ul>
+				</div>
+				
+				<div class="tipe-sepeda">
+					<span>Tipe/jenis:</span>
+					<ul>
+					<li>
+					<input type="checkbox" name="tipe-sepeda"id="sepeda-gunung" value="sepeda-gunung">
+					<label for="sepeda-gunung">Sepeda Gunung</label>
+					</li>
+					<li>
+					<input type="checkbox" name="tipe-sepeda"id="sepeda-balap" value="sepeda-balap">
+					<label for="sepeda-balap">Sepeda Balap</label>
+					</li>
+					<li>
+					<input type="checkbox" name="tipe-sepeda"id="sepeda-hybrid" value="sepeda-hybrid">
+					<label for="sepeda-hybrid">Sepeda Hybrid</label>
+					</li>
+					<li>
+					<input type="checkbox" name="tipe-sepeda"id="sepeda-bmx" value="sepeda-bmx">
+					<label for="sepeda-bmx">Sepeda BMX</label>
+					</li>
+					<li>
+					<input type="checkbox" name="tipe-sepeda"id="sepeda-lipat" value="sepeda-lipat">
+					<label for="sepeda-lipat">Sepeda Lipat</label>
+					</li>
+					</ul>
+					<ul class="tipe-col2">
+					<li>
+					<input type="checkbox" name="tipe-sepeda"id="sepeda-fixie" value="sepeda-fixie">
+					<label for="sepeda-fixie">Sepeda Fixie</label>
+					</li>
+					<li>
+					<input type="checkbox" name="tipe-sepeda"id="sepeda-onthel" value="sepeda-onthel">
+					<label for="sepeda-onthel">Sepeda Onthel</label>
+					</li>
+					</ul>
+				</div>
+				
+				<div class="search">
+				<input id="search" type="submit" value="Search">
+				</div>
+				<div class="reset">
+				<input id="reset" type="reset" value="Reset">
+				</div>
+            </form>
             <article id="about">
                 <p>
                 Apakah Lorem Ipsum itu?
