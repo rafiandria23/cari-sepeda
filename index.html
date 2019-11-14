@@ -11,12 +11,16 @@
         <img id="logo" src="img/logo.png" alt="Logo Image" />
     </header>
     <header>
-        <nav>
+        <div class="topnav">
+
             <a href="#home">Home</a>
-            <a href="#sepeda">Sepeda</a>
-            <a href="#about">About Us</a>
-            <a href="#"><span id="login">Login</span></a>
-        </nav>
+            <a href="#sepeda">Pilihan Kategori</a>
+            <a href="#about">Brands</a>
+            <a href="#">Promo</></a>
+            <a href="#">Promo</></a>
+            <a href="#">Lokasi Outlet</></a>
+            <a href="#" style="float:right">Login</a>
+        </div>
     </header>
     <main>
         <table>
@@ -33,73 +37,92 @@
 
 
         <br>
+
         <div class="card">
-            <h1>Filter Pencarian Data</h1>
-            <table style="text-align: left;">
-                <tr>
-                    <th>
-                        <h2>Frame Size</h2>
-                    </th>
+            <fieldset>
+                <h1>Filter Pencarian Data</h1>
+                <table style="text-align: left;">
+                    <tr>
+                        <th>
+                            <h2>Frame Size</h2>
+                        </th>
 
-                    <th>
-                        <h2>While Size</h2>
-                    </th>
+                        <th>
+                            <h2>While Size</h2>
+                        </th>
 
-                    <th>
-                        <h2>Gendre</h2>
-                    </th>
+                        <th>
+                            <h2>Gendre</h2>
+                        </th>
 
-                    <th>
-                        <h2>Brands</h2>
-                    </th>
+                        <th>
+                            <h2>Brands</h2>
+                        </th>
+                        <th>
+                            <h2>Harga</h2>
+                        </th>
 
-                    <th>
-                        <h2>Informasi Promo Hari ini</h2>
-                    </th>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="checkbox" name="">10"<br>
-                        <input type="checkbox" name="">11"<br>
-                        <input type="checkbox" name="">13"<br>
-                        <input type="checkbox" name="">15"<br>
-                        <input type="checkbox" name="">17"<br>
-                        <input type="checkbox" name="">19"<br>
-                    </td>
+                        <th>
+                            <h2>Informasi Promo Hari ini</h2>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="">10"<br>
+                            <input type="checkbox" name="">11"<br>
+                            <input type="checkbox" name="">13"<br>
+                            <input type="checkbox" name="">15"<br>
+                            <input type="checkbox" name="">17"<br>
+                            <input type="checkbox" name="">19"<br>
+                        </td>
 
-                    <td>
-                        <input type="checkbox" name="">20"<br>
-                        <input type="checkbox" name="">24"<br>
-                        <input type="checkbox" name="">26"<br>
-                        <input type="checkbox" name="">27.5"<br>
-                        <input type="checkbox" name="">29"<br>
-                        <input type="checkbox" name="">30"<br>
-                    </td>
+                        <td>
+                            <input type="checkbox" name="">20"<br>
+                            <input type="checkbox" name="">24"<br>
+                            <input type="checkbox" name="">26"<br>
+                            <input type="checkbox" name="">27.5"<br>
+                            <input type="checkbox" name="">29"<br>
+                            <input type="checkbox" name="">30"<br>
+                        </td>
 
-                    <td>
-                        <input type="checkbox" name="">MTB"<br>
-                        <input type="checkbox" name="">BMX"<br>
-                        <input type="checkbox" name="">Kids"<br>
+                        <td>
+                            <input type="checkbox" name="">MTB<br>
+                            <input type="checkbox" name="">BMX<br>
+                            <input type="checkbox" name="">Kids<br>
 
-                    </td>
+                        </td>
 
-                    <td>
-                        <input type="checkbox" name="">Polygon"<br>
-                        <input type="checkbox" name="">United"<br>
-                        <input type="checkbox" name="">Police"<br>
+                        <td>
+                            <input type="checkbox" name="">Polygon<br>
+                            <input type="checkbox" name="">United<br>
+                            <input type="checkbox" name="">Police<br>
+                            <input type="checkbox" name="">Santa Cruz<br>
+                            <input type="checkbox" name="">Kona<br>
+                            <input type="checkbox" name="">Wincyle<br>
+                        </td>
+                        <td>
+                            <select name="harga" id="harga">
+                                <option value="<Rp500.000,00"><span>
+                                        <</span>Rp500.000,00 </option> <option value="Rp500.000,00 - Rp1.000.000,00">
+                                            Rp500.000,00 - Rp1.000.000,00</option>
+                                <option value="Rp1.000.000,00 - Rp2.000.000,00">Rp1.000.000,00 - Rp2.000.000,00</option>
+                                <option value="Rp2.000.000,00 - Rp5.000.000,00">Rp2.000.000,00 - Rp5.000.000,00</option>
+                                <option value=">Rp5.000.000,00">>Rp5.000.000,00</option>
+                            </select><br>
+                            <button class="button button2">Filter</button>
+                        </td>
 
-                    </td>
-
-                    <td>
-                        <marquee><br>
-                            <img src="img/Marin_Nicasio_RC_Website_Cover.jpg" height="100" width="400">
-                            <img src="img/Polygon_Xquareone_DH9_Website_Cover.jpg" height="100" width="400">
-                            <img src="img/Tern_Andros_Stem_Gen_2_Website_Cover_1.jpg" height="100" width="400">
-                            <img src="img/Beli_Botol_Bebas_Ongkir_Website_Cover.jpg" height="100" width="400">
-                        </marquee>
-                    </td>
-                </tr>
-            </table>
+                        <td>
+                            <marquee><br>
+                                <img src="img/Marin_Nicasio_RC_Website_Cover.jpg" height="100" width="400">
+                                <img src="img/Polygon_Xquareone_DH9_Website_Cover.jpg" height="100" width="400">
+                                <img src="img/Tern_Andros_Stem_Gen_2_Website_Cover_1.jpg" height="100" width="400">
+                                <img src="img/Beli_Botol_Bebas_Ongkir_Website_Cover.jpg" height="100" width="400">
+                            </marquee>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
         </div>
 
 
@@ -264,12 +287,32 @@
                 </td>
             </tr>
         </table>
-        <article id="about">
+        <article id="artikel">
+
+
+
 
         </article>
         <a href="#body">
-            <img id="scroll-top" alt="Scroll Top Image" src="img/top.png">
+            <img id="scroll-keranjang" alt="Scroll Top Image" src="img/keranjang.png"><br>
         </a>
+        <a href="#body">
+            <img id="scroll-top" alt="Scroll Top Image" src="img/top.png"><br>
+        </a>
+        <a href="#body">
+            <img id="scroll-facebook" alt="Scroll facebook Image" src="img/social_facebook_box_blue_256_30649.png">
+        </a>
+        <a href="#body">
+            <img id="scroll-twiter" alt="Scroll twiter Image"
+                src="img/1486051940-twitersocialnetworkbrandlogo_79084.png">
+        </a>
+        <a href="#body">
+            <img id="scroll-instagram" alt="Scroll instagram Image" src="img/instagram.png">
+        </a>
+        <a href="#body">
+            <img id="scroll-whatsapp" alt="Scroll whathsapp Image" src="img/whatsapp_icon-icons.com_53606.png">
+        </a>
+
     </main>
 
 

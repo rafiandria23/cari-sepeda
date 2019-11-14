@@ -1,0 +1,228 @@
+<head>
+    <title>Carisepeda.com</title>
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+</head>
+
+<body id="body">
+    <header>
+        <img id="logo" src="img/logo.png" alt="Logo Image" />
+    </header>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#sepeda">Sepeda</a>
+            <a href="#about">About Us</a>
+            <a href="#"><span id="login">Login</span></a>
+        </nav>
+    </header>
+    <main>
+        <article id="home">
+            <h1 class="center mb-2 mt-2">Home</h1>
+            <p>Apakah Lorem Ipsum itu?
+                Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting.
+                Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an, saat seorang tukang cetak yang tidak
+                dikenal mengambil sebuah kumpulan teks dan mengacaknya untuk menjadi sebuah buku contoh huruf. Ia tidak
+                hanya bertahan selama 5 abad, tapi juga telah beralih ke penataan huruf elektronik, tanpa ada perubahan
+                apapun. Ia mulai dipopulerkan pada tahun 1960 dengan diluncurkannya lembaran-lembaran Letraset yang
+                menggunakan kalimat-kalimat dari Lorem Ipsum, dan seiring munculnya perangkat lunak Desktop Publishing
+                seperti Aldus PageMaker juga memiliki versi Lorem Ipsum.
+
+                Dari mana asalnya?
+                Tidak seperti anggapan banyak orang, Lorem Ipsum bukanlah teks-teks yang diacak. Ia berakar dari sebuah
+                naskah sastra latin klasik dari era 45 sebelum masehi, hingga bisa dipastikan usianya telah mencapai
+                lebih dari 2000 tahun. Richard McClintock, seorang professor Bahasa Latin dari Hampden-Sidney College di
+                Virginia, mencoba mencari makna salah satu kata latin yang dianggap paling tidak jelas, yakni
+                consectetur, yang diambil dari salah satu bagian Lorem Ipsum. Setelah ia mencari maknanya di di
+                literatur klasik, ia mendapatkan sebuah sumber yang tidak bisa diragukan. Lorem Ipsum berasal dari
+                bagian 1.10.32 dan 1.10.33 dari naskah "de Finibus Bonorum et Malorum" (Sisi Ekstrim dari Kebaikan dan
+                Kejahatan) karya Cicero, yang ditulis pada tahun 45 sebelum masehi. BUku ini adalah risalah dari teori
+                etika yang sangat terkenal pada masa Renaissance. Baris pertama dari Lorem Ipsum, "Lorem ipsum dolor sit
+                amet..", berasal dari sebuah baris di bagian 1.10.32.
+
+                Bagian standar dari teks Lorem Ipsum yang digunakan sejak tahun 1500an kini di reproduksi kembali di
+                bawah ini untuk mereka yang tertarik. Bagian 1.10.32 dan 1.10.33 dari "de Finibus Bonorum et Malorum"
+                karya Cicero juga di reproduksi persis seperti bentuk aslinya, diikuti oleh versi bahasa Inggris yang
+                berasal dari terjemahan tahun 1914 oleh H. Rackham.
+
+                Dari mana saya bisa mendapatkannya?
+                Ada banyak variasi tulisan Lorem Ipsum yang tersedia, tapi kebanyakan sudah mengalami perubahan bentuk,
+                entah karena unsur humor atau kalimat yang diacak hingga nampak sangat tidak masuk akal. Jika anda ingin
+                menggunakan tulisan Lorem Ipsum, anda harus yakin tidak ada bagian yang memalukan yang tersembunyi di
+                tengah naskah tersebut. Semua generator Lorem Ipsum di internet cenderung untuk mengulang bagian-bagian
+                tertentu. Karena itu inilah generator pertama yang sebenarnya di internet. Ia menggunakan kamus
+                perbendaharaan yang terdiri dari 200 kata Latin, yang digabung dengan banyak contoh struktur kalimat
+                untuk menghasilkan Lorem Ipsun yang nampak masuk akal. Karena itu Lorem Ipsun yang dihasilkan akan
+                selalu bebas dari pengulangan, unsur humor yang sengaja dimasukkan, kata yang tidak sesuai dengan
+                karakteristiknya dan lain sebagainya.
+            </p>
+        </article>
+        <article id="sepeda">
+            <h1 class="center mt-2 mb-2">Cari Sepeda</h1>
+            <form>
+                <span class="filter-title">Filter</span>
+                <div class="baru-bekas">
+                    <span>Kondisi</span><br>
+                    <input type="checkbox" name="pilih-baru-bekas" id="baru" value="baru">
+                    <label for="baru">Baru</label>
+                    <input type="checkbox" name="pilih-baru-bekas" id="bekas" value="bekas">
+                    <label for="baru">Bekas</label>
+                </div>
+                <div class="rentang-harga">
+                    <label for="harga">Tentukan rentang (IDR):</label><br>
+                    <select name="harga" id="harga">
+                        <option value="<Rp500.000,00"><span>
+                                <</span>Rp500.000,00 </option> <option value="Rp500.000,00 - Rp1.000.000,00">
+                                    Rp500.000,00 - Rp1.000.000,00</option>
+                        <option value="Rp1.000.000,00 - Rp2.000.000,00">Rp1.000.000,00 - Rp2.000.000,00</option>
+                        <option value="Rp2.000.000,00 - Rp5.000.000,00">Rp2.000.000,00 - Rp5.000.000,00</option>
+                        <option value=">Rp5.000.000,00">>Rp5.000.000,00</option>
+                    </select>
+                </div>
+
+                <div class="merek-sepeda">
+                    <span>Merek:</span>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="merek-sepeda" id="polygon" value="polygon">
+                            <label for="polygon">Polygon</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="merek-sepeda" id="united-bike" value="united-bike">
+                            <label for="united-bike">United Bike</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="merek-sepeda" id="rocky-mountain-bicycles"
+                                value="rocky-mountain-bicycles">
+                            <label for="rocky-mountain-bicycles">Rocky Mountain Bicycles</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="merek-sepeda" id="santa-cruz" value="santa-cruz">
+                            <label for="santa-cruz">Santa Cruz</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="merek-sepeda" id="lapierre" value="lapierre">
+                            <label for="lapierre">Lapierre</label>
+                        </li>
+                    </ul>
+                    <ul class="merek-col2">
+                        <li>
+                            <input type="checkbox" name="merek-sepeda" id="kona" value="kona">
+                            <label for="kona">Kona</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="merek-sepeda" id="giant" value="giant">
+                            <label for="giant">Giant</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="merek-sepeda" id="cube" value="cube">
+                            <label for="cube">Cube</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="merek-sepeda" id="trek" value="trek">
+                            <label for="trek">Trek</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="merek-sepeda" id="wimcycle" value="wimcycle">
+                            <label for="wimcycle">Wimcycle</label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tipe-sepeda">
+                    <span>Tipe/jenis:</span>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="tipe-sepeda" id="sepeda-gunung" value="sepeda-gunung">
+                            <label for="sepeda-gunung">Sepeda Gunung</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="tipe-sepeda" id="sepeda-balap" value="sepeda-balap">
+                            <label for="sepeda-balap">Sepeda Balap</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="tipe-sepeda" id="sepeda-hybrid" value="sepeda-hybrid">
+                            <label for="sepeda-hybrid">Sepeda Hybrid</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="tipe-sepeda" id="sepeda-bmx" value="sepeda-bmx">
+                            <label for="sepeda-bmx">Sepeda BMX</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="tipe-sepeda" id="sepeda-lipat" value="sepeda-lipat">
+                            <label for="sepeda-lipat">Sepeda Lipat</label>
+                        </li>
+                    </ul>
+                    <ul class="tipe-col2">
+                        <li>
+                            <input type="checkbox" name="tipe-sepeda" id="sepeda-fixie" value="sepeda-fixie">
+                            <label for="sepeda-fixie">Sepeda Fixie</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="tipe-sepeda" id="sepeda-onthel" value="sepeda-onthel">
+                            <label for="sepeda-onthel">Sepeda Onthel</label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="search">
+                    <input id="search" type="submit" value="Search">
+                </div>
+                <div class="reset">
+                    <input id="reset" type="reset" value="Reset">
+                </div>
+            </form>
+        </article>
+        <article id="about">
+            <h1 class="center mt-2 mb-2">About</h1>
+            <p>
+                Apakah Lorem Ipsum itu?
+                Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting.
+                Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an, saat seorang tukang cetak yang tidak
+                dikenal mengambil sebuah kumpulan teks dan mengacaknya untuk menjadi sebuah buku contoh huruf. Ia tidak
+                hanya bertahan selama 5 abad, tapi juga telah beralih ke penataan huruf elektronik, tanpa ada perubahan
+                apapun. Ia mulai dipopulerkan pada tahun 1960 dengan diluncurkannya lembaran-lembaran Letraset yang
+                menggunakan kalimat-kalimat dari Lorem Ipsum, dan seiring munculnya perangkat lunak Desktop Publishing
+                seperti Aldus PageMaker juga memiliki versi Lorem Ipsum.
+
+                Dari mana asalnya?
+                Tidak seperti anggapan banyak orang, Lorem Ipsum bukanlah teks-teks yang diacak. Ia berakar dari sebuah
+                naskah sastra latin klasik dari era 45 sebelum masehi, hingga bisa dipastikan usianya telah mencapai
+                lebih dari 2000 tahun. Richard McClintock, seorang professor Bahasa Latin dari Hampden-Sidney College di
+                Virginia, mencoba mencari makna salah satu kata latin yang dianggap paling tidak jelas, yakni
+                consectetur, yang diambil dari salah satu bagian Lorem Ipsum. Setelah ia mencari maknanya di di
+                literatur klasik, ia mendapatkan sebuah sumber yang tidak bisa diragukan. Lorem Ipsum berasal dari
+                bagian 1.10.32 dan 1.10.33 dari naskah "de Finibus Bonorum et Malorum" (Sisi Ekstrim dari Kebaikan dan
+                Kejahatan) karya Cicero, yang ditulis pada tahun 45 sebelum masehi. BUku ini adalah risalah dari teori
+                etika yang sangat terkenal pada masa Renaissance. Baris pertama dari Lorem Ipsum, "Lorem ipsum dolor sit
+                amet..", berasal dari sebuah baris di bagian 1.10.32.
+
+                Bagian standar dari teks Lorem Ipsum yang digunakan sejak tahun 1500an kini di reproduksi kembali di
+                bawah ini untuk mereka yang tertarik. Bagian 1.10.32 dan 1.10.33 dari "de Finibus Bonorum et Malorum"
+                karya Cicero juga di reproduksi persis seperti bentuk aslinya, diikuti oleh versi bahasa Inggris yang
+                berasal dari terjemahan tahun 1914 oleh H. Rackham.
+
+                Dari mana saya bisa mendapatkannya?
+                Ada banyak variasi tulisan Lorem Ipsum yang tersedia, tapi kebanyakan sudah mengalami perubahan bentuk,
+                entah karena unsur humor atau kalimat yang diacak hingga nampak sangat tidak masuk akal. Jika anda ingin
+                menggunakan tulisan Lorem Ipsum, anda harus yakin tidak ada bagian yang memalukan yang tersembunyi di
+                tengah naskah tersebut. Semua generator Lorem Ipsum di internet cenderung untuk mengulang bagian-bagian
+                tertentu. Karena itu inilah generator pertama yang sebenarnya di internet. Ia menggunakan kamus
+                perbendaharaan yang terdiri dari 200 kata Latin, yang digabung dengan banyak contoh struktur kalimat
+                untuk menghasilkan Lorem Ipsun yang nampak masuk akal. Karena itu Lorem Ipsun yang dihasilkan akan
+                selalu bebas dari pengulangan, unsur humor yang sengaja dimasukkan, kata yang tidak sesuai dengan
+                karakteristiknya dan lain sebagainya.
+            </p>
+        </article>
+        <a href="#body">
+            <img id="scroll-top" alt="Scroll Top Image" src="img/top.png">
+        </a>
+    </main>
+    <footer>
+        <nav>
+            Copyright&copy;carisepeda.com @2019
+        </nav>
+    </footer>
+</body>
+>>>>>>> 74d024f43d7a486ae95b7afbaaa95cba2efc34e4
+
+</html>
