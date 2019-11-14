@@ -1,17 +1,16 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-    <title>Carisepeda.com</title>
-    <link href="css/main.css" type="text/css" rel="stylesheet">
-    <link href="css/grid.css" type="text/css" rel="stylesheet">
+        <title>Carisepeda.com</title>
+        <link href="css/main.css" type="text/css" rel="stylesheet">
+        <link href="css/grid.css" type="text/css" rel="stylesheet">
 </head>
+<body>
 
-<body id="body">
-    <header>
-        <img id="logo" src="img/logo.png" alt="Logo Image" />
-    </header>
-    <header>
-        <div class="topnav">
+<div class="header">
+    <img id="logo" src="img/logo.png" alt="Logo Image" />
+    <a href="#default" class="logo">Carisepeda.com</a>
+    <a href="#login">Login</a>
 
             <a href="#home">Home</a>
             <a href="#sepeda">Pilihan Kategori</a>
@@ -28,31 +27,33 @@
                 <td><img src="img/Web-Category-November-1_01.jpg"></td>
                 <td><img src="img/Web-Category-November-1_06.jpg" height="280" width="583"></td>
 
-            </tr>
-            <tr>
-                <td colspan="2"><img src="img/Marin_Nicasio_RC_Website_Cover.jpg" height="300" width="1220"></td>
-            </tr>
-        </table>
+<!-- Banner -->
+<section id="banner">
+    <div class="inner">
+        <h1>CARISEPEDA.COM</h1>
+        <p>Tempat yang tepat mencari sepeda terbaik sesuai kebutuhanmu <br />
+    </div>
+    <img src="img/Web-Category-November-1_01.jpg">
+</section>
 
 
 
         <br>
 
         <div class="card">
-            <fieldset>
                 <h1>Filter Pencarian Data</h1>
-                <table style="text-align: left;">
+                <table>
                     <tr>
                         <th>
                             <h2>Frame Size</h2>
                         </th>
 
                         <th>
-                            <h2>While Size</h2>
+                            <h2>Wheel Size</h2>
                         </th>
 
                         <th>
-                            <h2>Gendre</h2>
+                            <h2>Genres</h2>
                         </th>
 
                         <th>
@@ -60,10 +61,6 @@
                         </th>
                         <th>
                             <h2>Harga</h2>
-                        </th>
-
-                        <th>
-                            <h2>Informasi Promo Hari ini</h2>
                         </th>
                     </tr>
                     <tr>
@@ -75,7 +72,6 @@
                             <input type="checkbox" name="">17"<br>
                             <input type="checkbox" name="">19"<br>
                         </td>
-
                         <td>
                             <input type="checkbox" name="">20"<br>
                             <input type="checkbox" name="">24"<br>
@@ -103,7 +99,7 @@
                         <td>
                             <select name="harga" id="harga">
                                 <option value="<Rp500.000,00"><span>
-                                        <</span>Rp500.000,00 </option> <option value="Rp500.000,00 - Rp1.000.000,00">
+                                        </span>Rp500.000,00 </option> <option value="Rp500.000,00 - Rp1.000.000,00">
                                             Rp500.000,00 - Rp1.000.000,00</option>
                                 <option value="Rp1.000.000,00 - Rp2.000.000,00">Rp1.000.000,00 - Rp2.000.000,00</option>
                                 <option value="Rp2.000.000,00 - Rp5.000.000,00">Rp2.000.000,00 - Rp5.000.000,00</option>
@@ -112,23 +108,15 @@
                             <button class="button button2">Filter</button>
                         </td>
 
-                        <td>
-                            <marquee><br>
-                                <img src="img/Marin_Nicasio_RC_Website_Cover.jpg" height="100" width="400">
-                                <img src="img/Polygon_Xquareone_DH9_Website_Cover.jpg" height="100" width="400">
-                                <img src="img/Tern_Andros_Stem_Gen_2_Website_Cover_1.jpg" height="100" width="400">
-                                <img src="img/Beli_Botol_Bebas_Ongkir_Website_Cover.jpg" height="100" width="400">
-                            </marquee>
-                        </td>
                     </tr>
                 </table>
-            </fieldset>
         </div>
 
+</section>
 
-
-        <br><br>
-        <h2>Polygon</h2>
+<section>
+    <h2 style="padding-top: 10px">Polygon</h2>
+</section>
 
         <table>
             <tr>
@@ -209,7 +197,9 @@
 
         </table>
 
+<section>
         <h2>Police</h2>
+</section>
 
         <table border="0">
             <tr>
@@ -287,7 +277,6 @@
                 </td>
             </tr>
         </table>
-        <article id="artikel">
 
 
 
