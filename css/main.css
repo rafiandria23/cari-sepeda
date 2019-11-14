@@ -1,24 +1,24 @@
-*{
+* {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
     /* overflow: hidden; */
 }
 
-body{
+body {
     background-color: #bdc3c7;
 }
 
-#logo{
+#logo {
     padding-left: 50%;
     height: 15%;
 }
 
-#login{
+#login {
     height: 5%;
 }
 
-header{
+header {
     margin-bottom: 10px;
     background-color: #34495e;
     border: 3px solid #bdc3c7;
@@ -26,21 +26,21 @@ header{
     border-radius: 10px;
 }
 
-header a{
+header a {
     text-decoration: none;
     padding: 0 10%;
     color: white;
 }
 
-header:hover{
+header:hover {
     background-color: #2c3e50;
 }
 
-header a:hover{
+header a:hover {
     background-color: blue;
 }
 
-footer{
+footer {
     background-color: #34495e;
     border: 3px solid #bdc3c7;
     padding: 1% 0;
@@ -49,7 +49,7 @@ footer{
     text-align: center;
 }
 
-#scroll-top{
+#scroll-top {
     position: fixed;
     bottom: 5;
     right: 5;
@@ -57,17 +57,57 @@ footer{
     opacity: 0.5;
 }
 
-#scroll-top:hover{
+#scroll-top:hover {
     opacity: 1;
 }
 
-main{
+main {
     padding: 1%;
     /* height: 58%; */
     /* overflow: auto; */
 }
 
-p{
+p {
     text-indent: 5%;
     text-align: justify;
+}
+
+/* Tambahan Aditya */
+.button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+table th {
+    width: 135;
 }
